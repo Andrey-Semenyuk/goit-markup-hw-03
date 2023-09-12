@@ -157,16 +157,20 @@ img {
 /* section 1 */
 .dark-bg {
   background-color: var(--hero-background);
+  padding: 188px 0 188px;
 }
 .effective {
   color: var(--white);
   text-align: center;
   line-height: 1.07;
   font-size: 56px;
-
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  padding: 188px 0 188px;
+}
+.h1 {
+  max-width: 496px;
 }
 .btm-effective {
   background-color: var(--iris);
