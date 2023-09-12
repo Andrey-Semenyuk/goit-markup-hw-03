@@ -14,7 +14,11 @@
   --modal-background: #fcfcfc;
   --white: #ffffff;
 }
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: var(--primary-font);
   color: var(--slate);
