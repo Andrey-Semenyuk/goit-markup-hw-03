@@ -41,6 +41,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  display: flex;
+  margin-right: 76px;
 }
 .logo-studio-dark {
   color: var(--naviblue);
@@ -68,6 +70,9 @@ body {
 
 .address-list {
   font-style: normal;
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
 }
 .menu-nav {
   font-size: 16px;
@@ -80,6 +85,7 @@ body {
   display: flex;
   gap: 40px;
   margin-right: 40px;
+  padding: 24px 0 24px;
 }
 .menu-nav:hover,
 .menu-nav:focus {
