@@ -131,14 +131,19 @@ body {
 }
 .list {
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 .link {
   text-decoration: none;
+  gap: 40px;
+  margin-right: 40px;
+  margin-right: 0;
 }
 .header-index {
   border-bottom: 1px solid #e7e9fc;
 }
-.nav .list {
+.nav-list {
   display: flex;
   align-items: center;
 }
