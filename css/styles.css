@@ -24,6 +24,12 @@ body {
   color: var(--slate);
   background-color: var(--white);
 }
+.container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
 /* header */
 .logo-studio {
   color: var(--iris);
@@ -46,6 +52,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-studio-light {
@@ -70,6 +77,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--naviblue);
   text-decoration: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
 }
 .menu-nav:hover,
 .menu-nav:focus {
@@ -118,6 +128,13 @@ body {
 }
 .link {
   text-decoration: none;
+}
+.header-index {
+  border-bottom: 1px solid #e7e9fc;
+}
+.nav .list {
+  display: flex;
+  align-items: center;
 }
 
 /* main */
