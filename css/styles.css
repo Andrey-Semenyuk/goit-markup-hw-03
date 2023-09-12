@@ -24,6 +24,9 @@ body {
   color: var(--slate);
   background-color: var(--white);
 }
+img {
+  display: block;
+}
 .container {
   display: flex;
   width: 1158px;
