@@ -46,6 +46,7 @@ img {
   text-decoration: none;
   display: flex;
   margin-right: 76px;
+  display: inline-block;
 }
 .logo-studio-dark {
   color: var(--naviblue);
@@ -69,6 +70,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .address-list {
@@ -246,25 +248,10 @@ img {
 /* footer */
 .footer {
   background-color: var(--naviblue);
+  padding: 100px 0 100px;
 }
 .footer-text {
   color: var(--cloud);
   letter-spacing: 0.02em;
   line-height: 1.5;
-}
-
-/* portfolio */
-/* btm-portfolio */
-.btm-portfolio {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--iris);
-  background-color: var(--cloud);
-}
-.btm-portfolio:hover,
-.btm-portfolio:focus {
-  color: var(--white);
-  background-color: var(--pressed-state);
-  cursor: pointer;
 }
