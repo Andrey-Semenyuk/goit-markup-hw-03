@@ -167,11 +167,8 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding: 188px 0 188px;
 }
-.h1 {
-  max-width: 496px;
-}
+
 .btm-effective {
   background-color: var(--iris);
   font-family: inherit;
