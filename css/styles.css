@@ -207,6 +207,10 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.benefits-list {
+  gap: 24px;
+  margin-right: 24px;
+}
 .subtitle {
   font-weight: 500;
   font-size: 20px;
