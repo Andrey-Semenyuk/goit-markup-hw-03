@@ -138,6 +138,11 @@ img {
   list-style: none;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  margin-right: 24px;
+  row-gap: 48px;
+  margin-bottom: 48px;
 }
 .link {
   text-decoration: none;
@@ -235,6 +240,9 @@ img {
   color: var(--naviblue);
 }
 /* section 4 */
+.sec-our-portfolio {
+  padding: 120px 0 120px 0;
+}
 .section-team {
   background-color: var(--cloud);
   padding: 120px 0 120px;
