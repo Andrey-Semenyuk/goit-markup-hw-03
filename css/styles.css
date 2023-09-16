@@ -304,6 +304,7 @@ img {
   text-decoration: none;
 }
 .footer-logo-studio-link {
+  display: inline-block;
 }
 .footer {
   background-color: var(--naviblue);
@@ -314,4 +315,5 @@ img {
   color: var(--cloud);
   letter-spacing: 0.02em;
   line-height: 1.5;
+  display: inline-block;
 }
