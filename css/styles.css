@@ -291,8 +291,19 @@ img {
 
 /* footer */
 .footer-logo-studio-link {
+  color: var(--iris);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   margin-bottom: 16px;
   display: inline-block;
+  text-decoration: none;
+}
+.footer-logo-studio-link {
 }
 .footer {
   background-color: var(--naviblue);
