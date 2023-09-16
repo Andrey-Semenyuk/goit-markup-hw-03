@@ -288,8 +288,8 @@ img {
 
 /* footer */
 .footer-logo-studio-link {
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .footer {
   background-color: var(--naviblue);
