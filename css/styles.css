@@ -287,6 +287,10 @@ img {
 }
 
 /* footer */
+.footer-logo-studio-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer {
   background-color: var(--naviblue);
   padding: 100px 0 100px;
