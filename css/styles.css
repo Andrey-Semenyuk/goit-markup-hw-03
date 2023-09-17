@@ -355,3 +355,6 @@ img {
   display: inline-block;
   max-width: 264px;
 }
+a {
+  display: inline-block;
+}
