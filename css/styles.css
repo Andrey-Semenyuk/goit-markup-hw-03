@@ -99,9 +99,11 @@ img {
   color: var(--pressed-state);
 }
 .nav-list {
+  display: inline-block;
 }
 .nav-nav {
   gap: 40px;
+  display: inline-block;
 }
 .nav-nav li {
   display: flex;
