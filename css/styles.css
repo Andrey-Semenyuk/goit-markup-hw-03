@@ -153,9 +153,8 @@ img {
 .list-address {
   list-style-type: none;
   display: flex;
-  gap: 40px;
 }
-.list-address:last-child {
+li:last-child {
   margin-right: 0;
 }
 
