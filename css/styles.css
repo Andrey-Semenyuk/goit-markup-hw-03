@@ -315,6 +315,7 @@ li:last-child {
   color: var(--hero-background);
   margin-bottom: 72px;
   gap: 24px;
+  width: calc((100% - 48px) / 3);
 }
 .subtitle-team {
   font-weight: 500;
