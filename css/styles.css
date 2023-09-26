@@ -155,6 +155,9 @@ img {
   display: flex;
   gap: 40px;
 }
+.list-address:last-child {
+  margin-right: 0;
+}
 
 .list {
   list-style: none;
