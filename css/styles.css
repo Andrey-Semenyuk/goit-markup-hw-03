@@ -103,10 +103,10 @@ img {
 }
 .nav-nav {
   display: inline-block;
+  margin-right: 40px;
 }
 .nav-nav .li {
   display: flex;
-  margin-right: 40px;
 }
 .nav-nav .li :last-child {
   margin-right: 0;
