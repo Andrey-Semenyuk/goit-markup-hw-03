@@ -102,7 +102,6 @@ img {
   display: inline-block;
 }
 .nav-nav {
-  gap: 40px;
   display: inline-block;
 }
 .nav-nav li {
@@ -153,6 +152,7 @@ img {
 .list-address {
   list-style-type: none;
   display: flex;
+  align-items: center;
 }
 li:last-child {
   margin-right: 0;
