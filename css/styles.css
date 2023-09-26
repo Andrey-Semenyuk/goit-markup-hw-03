@@ -344,6 +344,9 @@ li:last-child {
 }
 
 /* footer */
+a {
+  display: inline-block;
+}
 .footer-logo-studio-link {
   color: var(--iris);
   font-family: var(--secondary-font);
