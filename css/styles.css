@@ -34,6 +34,7 @@ img {
   padding: 0 15px 0 15px;
 }
 /* header */
+
 .logo-studio {
   color: var(--iris);
   font-family: var(--secondary-font);
@@ -105,10 +106,10 @@ img {
   display: inline-block;
   margin-right: 40px;
 }
-.nav-nav .li {
+.nav-nav li {
   display: flex;
 }
-.nav-nav .li :last-child {
+.nav-nav li :last-child {
   margin-right: 0;
 }
 
