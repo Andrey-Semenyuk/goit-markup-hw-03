@@ -108,10 +108,10 @@ img {
   display: flex;
   margin-right: 40px;
 }
-
-.nav-nav li:last-child {
+.nav-nav .li :last-child {
   margin-right: 0;
 }
+
 .link-menu-portfolio {
   font-size: 16px;
   font-style: normal;
