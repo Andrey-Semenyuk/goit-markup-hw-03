@@ -34,7 +34,10 @@ img {
   padding: 0 15px 0 15px;
 }
 /* header */
-
+.header-index {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .logo-studio {
   color: var(--iris);
   font-family: var(--secondary-font);
@@ -185,9 +188,15 @@ li:last-child {
 
 /* main */
 /* section 1 */
+.container .dark-bg {
+  display: flex;
+}
 .dark-bg {
   background-color: var(--hero-background);
-  padding: 188px 0 188px;
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 .effective {
   color: var(--white);
@@ -198,6 +207,10 @@ li:last-child {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-right: 472px;
+  margin-left: 472px;
+  margin-top: 188px;
+  margin-bottom: 0;
 }
 
 .btm-effective {
@@ -214,6 +227,10 @@ li:last-child {
   height: 56px;
   border-radius: 4px;
   border: none;
+  margin-bottom: 188px;
+  margin-left: 639px;
+  margin-top: 18px;
+  margin-right: 369px;
 }
 .btm-effective:hover,
 .btm-effective:focus {
@@ -260,6 +277,17 @@ li:last-child {
 }
 
 /* section 3 */
+.subtitle-section-team {
+}
+.section-team :first-child {
+  display: block;
+}
+.our {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .subtitle-section-img {
   text-transform: capitalize;
   font-size: 36px;
@@ -286,6 +314,9 @@ li:last-child {
 /* section 4 */
 .sec-our-portfolio {
   padding: 120px 0 120px 0;
+}
+.sec-our-portfolio :first-child {
+  display: block;
 }
 .section-team {
   background-color: var(--cloud);
