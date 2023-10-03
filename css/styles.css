@@ -197,6 +197,7 @@ li:last-child {
   height: 600px;
   display: flex;
   flex-direction: column;
+  padding: 188px 0 188px;
 }
 .effective {
   color: var(--white);
@@ -231,6 +232,7 @@ li:last-child {
   margin-left: 639px;
   margin-top: 18px;
   margin-right: 369px;
+  height: 56px;
 }
 .btm-effective:hover,
 .btm-effective:focus {
