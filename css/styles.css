@@ -212,6 +212,8 @@ li:last-child {
   line-height: 1.07;
   letter-spacing: 0.02em;
   height: 120px;
+  max-width: 496px;
+  max-height: 120px;
 }
 
 .btm-effective {
