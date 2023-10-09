@@ -204,6 +204,7 @@ li:last-child {
   flex-direction: column;
   flex-shrink: 0;
 }
+
 .effective {
   color: var(--white);
   font-size: 56px;
