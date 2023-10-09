@@ -195,7 +195,8 @@ li:last-child {
 /* main */
 /* section 1 */
 .container .dark-bg {
-  flex-shrink: 0;
+  flex-shrink: 0; 
+  padding-top: 188px; padding-bottom: 188px;
 }
 .dark-bg {
   background-color: var(--hero-background);
