@@ -261,7 +261,7 @@ li:last-child {
   margin-right: 24px;
 }
 .benefits-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .subtitle {
   font-weight: 500;
