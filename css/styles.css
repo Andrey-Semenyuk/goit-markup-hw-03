@@ -195,13 +195,14 @@ li:last-child {
 /* main */
 /* section 1 */
 .container .dark-bg {
-  flex-shrink: 0; 
-  padding-top: 188px; padding-bottom: 188px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .dark-bg {
   background-color: var(--hero-background);
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
 }
 .effective {
   color: var(--white);
@@ -210,7 +211,6 @@ li:last-child {
   line-height: 1.07;
   letter-spacing: 0.02em;
   height: 120px;
-  max-width: width: 496px;;
 }
 
 .btm-effective {
